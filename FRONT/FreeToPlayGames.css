@@ -1,0 +1,43 @@
+
+.FreeToPlayGames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .FreeToPlayGames h1 {
+    color: #61dafb;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .FreeToPlayGames .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    width: 50%;
+  }
+  
+  .FreeToPlayGames .game h2 {
+    color: #61dafb;
+    font-size: 1.5em;
+  }
+  
+  .FreeToPlayGames .game h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .FreeToPlayGames .game img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .FreeToPlayGames .game p {
+    color: #61dafb;
+  }
+  

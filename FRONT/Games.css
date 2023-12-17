@@ -1,0 +1,40 @@
+
+.Games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Games h1 {
+    color: #61dafb;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .Games .game-item {
+    width: 80%;
+    border: 1px solid #61dafb;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+  }
+  
+  .Games .game-item h2 {
+    color: #61dafb;
+    font-size: 1.5em;
+  }
+  
+  .Games .game-item h2 a {
+    text-decoration: none;
+    color: #61dafb;
+  }
+  
+  .Games .game-item p {
+    color: #61dafb;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .Games .game-item p{
+    color: #61dafb;
+  }
+  

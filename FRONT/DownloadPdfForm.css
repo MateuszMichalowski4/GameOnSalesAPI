@@ -1,0 +1,45 @@
+/* DownloadPdfForm.css */
+
+.DownloadPdfForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .DownloadPdfForm label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .DownloadPdfForm input,
+  .DownloadPdfForm textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .DownloadPdfForm button {
+    width: 100%;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .DownloadPdfForm button:hover {
+    background-color: #0056b3;
+  }
+  

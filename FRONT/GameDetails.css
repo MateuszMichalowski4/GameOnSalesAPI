@@ -1,0 +1,51 @@
+/* GameDetails.css */
+
+.GameDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Dodajemy nową czcionkę */
+  }
+  
+  .GameDetails h1 {
+    color: #61dafb;
+    font-size: 2.5em; /* Zwiększamy rozmiar czcionki */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Dodajemy cień do tekstu */
+    margin-bottom: 1em;
+  }
+  
+  .GameDetails img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .GameDetails p {
+    color: #61dafb;
+    font-size: 1.2em; 
+    line-height: 1.5; 
+    margin-bottom: 1em;
+  }
+  
+  .GameDetails .metadata {
+    color: #616161; 
+  }
+  
+  .GameDetails .screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .GameDetails .screenshots h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .GameDetails .screenshots img {
+    width: 30%;
+    height: auto;
+    margin: 1em;
+  }
+  
